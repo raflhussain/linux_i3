@@ -1,0 +1,22 @@
+# aliases
+alias reload='source ~/.bashrc'
+alias upgrade='sudo apt-get update; and sudo apt-get upgrade'
+alias i3l='i3lock -c 000000'
+
+# file shortcuts
+alias rc='vim ~/.bashrc'
+alias config='vim ~/.config/i3/config'
+alias compton='vim ~/.config/compton.conf'
+alias aliases='vim ~/.bash_aliases'
+
+# directory shortcuts
+alias CS50='cd ~/Documents/CS50/'
+
+# chrome shortcuts
+#alias google='. ~/.googlesearch'
+#alias youtube='. ~/.youtubesearch'
+#alias gmail='google-chrome https://inbox.google.com/u/0/'
+#alias UOIT.net='google-chrome https://mail.google.com/mail/u/1/#inbox'
+
+# digital ocean shortcuts
+alias droplet='ssh root@165.227.42.197'
